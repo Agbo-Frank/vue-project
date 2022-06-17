@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="" class="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@500" rel="stylesheet" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      *{
+        font-family: 'Mulish', sans-serif;
+        margin: 0;padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        list-style-type: none;
+        transition: all .2s linear; 
+      }
+      .scrollbar::-webkit-scrollbar{
+        appearance: none;
+        width: 8px;
+      }
+      .scrollbar::-webkit-scrollbar-thumb{
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#FF6B00',
+              white: '#fff',
+              grey: {
+                100: '#D9D9D9',
+                200: '#9A9A9A',
+                300: '#F0F0F0',
+              },
+              dark: {
+                100: '#1E1E1E',
+                200: '#5F5F5F'
+              }
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="w-screen h-screen  overflow-x-hidden bg-white dark:bg-dark-100">
+    <div id="app"></div>
+  </body>
+</html>
