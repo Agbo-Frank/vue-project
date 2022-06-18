@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen px-5 w-fit scrollbar overflow-y-auto">
+    <div class="h-screen w-fit px-5 scrollbar overflow-y-auto overfow-x-hidden">
         <Card1 />
         <Card1 />
         <Card1 />

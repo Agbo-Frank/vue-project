@@ -3,7 +3,7 @@
         <div class="flex justify-between w-3/12">
             <div class="flex justify-between items-center w-full">
                 <h3 class="text-xl font-black mr-7 dark:text-white">Logo</h3>
-                <Icon bgcolor="bg-primary">
+                <Icon>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path class="dark:stroke-white" d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="dark:stroke-white" d="M3 9H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -61,27 +61,27 @@
         <div class="flex justify-between w-2/12">
             <Icon>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="dark:stroke-white"  d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="dark:stroke-white"  d="M16 2V6" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="dark:stroke-white"  d="M8 2V6" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="dark:stroke-white"  d="M3 10H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="dark:stroke-white" d="M18 8C18 6.4087 17.3679 4.88258 16.2426 3.75736C15.1174 2.63214 13.5913 2 12 2C10.4087 2 8.88258 2.63214 7.75736 3.75736C6.63214 4.88258 6 6.4087 6 8C6 15 3 17 3 17H21C21 17 18 15 18 8Z" stroke="black"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="dark:stroke-white" d="M13.73 21C13.5542 21.3031 13.3019 21.5547 12.9982 21.7295C12.6946 21.9044 12.3504 21.9965 12 21.9965C11.6496 21.9965 11.3054 21.9044 11.0018 21.7295C10.6982 21.5547 10.4458 21.3031 10.27 21" stroke="black"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg> 
                 </Icon>
             <Icon>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="dark:stroke-white"  d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="dark:stroke-white"  d="M16 2V6" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="dark:stroke-white"  d="M8 2V6" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="dark:stroke-white"  d="M3 10H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="dark:stroke-white"  d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="black"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="dark:stroke-white"  d="M14 2V8H20" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="dark:stroke-white"  d="M16 13H8" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="dark:stroke-white"  d="M16 17H8" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="dark:stroke-white"  d="M10 9H9H8" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg> 
                 </Icon>
             <Icon>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="dark:stroke-white"  d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="dark:stroke-white"  d="M16 2V6" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="dark:stroke-white"  d="M8 2V6" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path class="dark:stroke-white"  d="M3 10H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg> 
+                        <path class="dark:stroke-white"  d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="black"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="dark:stroke-white"  d="M14 2V8H20" stroke="black"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="dark:stroke-white"  d="M16 13H8" stroke="black"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="dark:stroke-white"  d="M16 17H8" stroke="black"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="dark:stroke-white"  d="M10 9H9H8" stroke="black"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
                 </Icon>
         </div>
     </header>

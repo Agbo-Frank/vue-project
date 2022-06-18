@@ -1,5 +1,5 @@
 <template>
-    <p @click="setActive" :class="['p-2.5 rounded-full hover:bg-grey-200', {'bgcolor': isColor}]" > 
+    <p @click="setActive" :class="['p-2.5 rounded-full hover:bg-grey-200', {'bg-primary': isColor }]" > 
         <slot />
     </p>
 </template>

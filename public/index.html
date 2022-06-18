@@ -22,6 +22,10 @@
         appearance: none;
         width: 8px;
       }
+      .scrollbar-hidden::-webkit-scrollbar{
+        appearance: none;
+        width: 0;
+      }
       .scrollbar::-webkit-scrollbar-thumb{
         background: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
@@ -46,7 +50,13 @@
                 100: '#1E1E1E',
                 200: '#5F5F5F'
               }
-            }
+            },
+            width:{
+              'pm-80': "76%"
+            },
+            height:{
+              'pm-100': "330px"
+            },
           }
         }
       }

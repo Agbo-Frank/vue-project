@@ -1,0 +1,37 @@
+<template>
+    <div class="flex flex-col shrink-0 w-56 mr-12 whitespace-normal">
+        <div class="dark:text-white">
+            <p class="text-xs">Top Priority</p>
+            <p class="font-bold my-5">My To-do list to finish before july</p>
+        </div>
+        <ol class="w-full rounded-3xl bg-grey-200 ring ring-grey-400 px-5 divide-y divide-dark-100 dark:divide-white">
+            <li class="flex gap-2 self-start items-center dark:text-white py-4">
+                <p class="rounded-lg self-start border border-solid border-black dark:border-white py-2 px-2 item text-xs">1</p>
+                <div>
+                    <p class="font-bold text-sm">Create a waireframe </p>
+                    <p class="text-xs capitalize">tody</p>
+                </div>
+            </li>
+            <li class="flex gap-2 self-start items-center dark:text-white py-4">
+                <p class="rounded-lg self-start border border-solid border-black dark:border-white py-2 px-2 item text-xs">2</p>
+                <div>
+                    <p class="font-bold text-sm">Create a waireframe </p>
+                    <p class="text-xs capitalize">tody</p>
+                </div>
+            </li>
+            <li class="flex gap-2 self-start items-center dark:text-white py-4">
+                <p class="rounded-lg self-start border border-solid border-black dark:border-white py-2 px-2 item text-xs">3</p>
+                <div>
+                    <p class="font-bold text-sm">Create a waireframe </p>
+                    <p class="text-xs capitalize">tody</p>
+                </div>
+            </li>
+        </ol>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'Card2'
+}
+</script>

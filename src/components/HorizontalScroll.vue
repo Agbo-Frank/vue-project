@@ -1,26 +1,22 @@
 <template>
-    <div class="w-48">
-        <div>
-            <p>Top Priority</p>
-            <p>My To-do list to finish before july</p>
+    <div class="block w-full h-pm-100 overflow-hidden mb-8 h-fit">
+        <div class="flex shrink-0 h-full whitespace-nowrap overflow-x-auto scrollbar-hidden">
+            <Card2 />
+            <Card2 />
+            <Card2 />
+            <Card2 />
+            <Card2 />
+            <Card2 />
         </div>
-        <ol class="w-full rounded-3xl bg-grey-200 ring ring-grey-400 px-2 py-10 divide-y divide-dark-100">
-            <li class="flex self-start">
-                <p class="rounded-lg self-start  border border-solid border-black py-2 px-3 item">1</p>
-                <div>
-                    <p>Create a waireframe </p>
-                    <p>tody</p>
-                </div>
-            </li>
-            <li>guy</li>
-            <li>guy</li>
-        </ol>
     </div>
 </template>
 
 <script>
-
+import Card2 from './Card2.vue'
 export default {
-    name: 'HorizontalScroll'
+    name: 'HorizontalScroll',
+    components: {
+        Card2
+    }
 }
 </script>

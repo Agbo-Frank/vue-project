@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-grey-300 dark:bg-dark-200 w-full h-full rounded-t-3xl">
+    <div class="bg-grey-300 dark:bg-dark-200 w-full h-fit rounded-t-3xl">
         <div class="flex items-center justify-between mx-10 py-8">
             <div class="flex items-center gap-2">
                 <Icon>
@@ -21,9 +21,12 @@
                 </div>
             </div>
         </div>
-        <div class="flex gap-10 mx-10 mt-10">
+        <div class="flex mx-10 mt-10 justify-between">
             <VerticalScroll />
-            <div>
+            <div class=" w-pm-80 h-screen scrollbar overflow-y-auto overfow-x-hidden">
+                <HorizontalScroll />
+                <HorizontalScroll />
+                <HorizontalScroll />
                 <HorizontalScroll />
             </div>
         </div>
