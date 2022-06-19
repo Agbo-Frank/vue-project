@@ -1,5 +1,5 @@
 <template>
-    <div class="block w-full h-pm-100 overflow-hidden mb-8 h-fit">
+    <div class="block w-full h-fit overflow-hidden mb-8 h-fit">
         <div class="flex shrink-0 h-full whitespace-nowrap overflow-x-auto scrollbar-hidden">
             <Card2 />
             <Card2 />
