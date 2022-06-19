@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex mx-10 mt-10 justify-between">
+        <div class="flex mx-10 mt-3 justify-between">
             <VerticalScroll />
             <div class=" w-pm-80 h-screen scrollbar overflow-y-auto overfow-x-hidden">
                 <HorizontalScroll />
