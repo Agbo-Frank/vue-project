@@ -1,8 +1,8 @@
 <template>
     <div class="flex flex-col shrink-0 w-56 h-fit py-3 mr-12 whitespace-normal">
         <div class="dark:text-white">
-            <p class="text-xs">Top Priority</p>
-            <p class="font-bold my-5">My To-do list to finish before july</p>
+            <p class="text-xs mb-5">Top Priority</p>
+            <p class="font-bold hidden md:block my-5">My To-do list to finish before july</p>
         </div>
         <ol class="w-full h-56 rounded-3xl bg-grey-200 ring ring-grey-400 px-5 divide-y divide-dark-100 dark:divide-white">
             <!-- <li class="flex gap-2 self-start items-center dark:text-white py-4">

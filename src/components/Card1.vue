@@ -1,5 +1,5 @@
 <template>
-    <div class="w-52 h-52 rounded-2xl bg-grey-100 px-3.5 py-4 mb-8">
+    <div class="w-full md:w-52 h-52 rounded-2xl bg-grey-100 md:px-3.5 py-4 mb-8">
         <div class="w-full flex justify-between">
             <div class=" w-5/12">
                 <!-- <div class="grid grid-cols-2 auto-rows-auto gap-1 w-full">

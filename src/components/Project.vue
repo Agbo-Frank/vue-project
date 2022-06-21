@@ -1,6 +1,6 @@
 <template>
     <div class="bg-grey-300 dark:bg-dark-200 w-full h-fit rounded-t-3xl">
-        <div class="flex items-center justify-between mx-10 py-8">
+        <div class="flex flex-col md:flex-row items-center justify-between mx-10 py-8">
             <div class="flex items-center gap-2">
                 <Icon>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,11 +21,9 @@
                 </div>
             </div>
         </div>
-        <div class="flex mx-10 mt-3 justify-between">
+        <div class="flex mx-2 md:mx-10 flex-col-reverse md:flex-row mt-3 justify-between">
             <VerticalScroll />
-            <div class=" w-pm-80 h-screen scrollbar overflow-y-auto overfow-x-hidden">
-                <HorizontalScroll />
-                <HorizontalScroll />
+            <div class=" w-full md:w-pm-80 md:h-screen flex flex-col md:flex-row flex-nowrap md:block scrollbar overflow-y-auto overfow-x-hidden">
                 <HorizontalScroll />
                 <HorizontalScroll />
             </div>

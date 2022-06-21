@@ -1,6 +1,6 @@
 <template>
-    <div class="block w-full h-fit overflow-hidden mb-8 h-fit">
-        <div class="flex shrink-0 h-full whitespace-nowrap overflow-x-auto scrollbar-hidden">
+    <div class="block w-full h-fit overflow-hidden md:mb-8 h-fit">
+        <div class="flex shrink-0 md:h-full whitespace-nowrap overflow-x-auto scrollbar-hidden">
             <Card2 />
             <Card2 />
             <Card2 />
