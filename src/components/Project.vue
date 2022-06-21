@@ -2,15 +2,15 @@
     <div class="bg-grey-300 dark:bg-dark-200 w-full h-fit rounded-t-3xl">
         <div class="flex flex-col md:flex-row items-center justify-between mx-10 py-8">
             <div class="flex items-center gap-2">
-                <Icon>
+                <p class="p-2.5 rounded-full hidden md:block hover:bg-grey-200" > 
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path class="dark:stroke-white"  d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path class="dark:stroke-white"  d="M21 21L16.65 16.65" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
-                </Icon>
+                </p>
                 <input type="text" class="bg-transparent dark:text-white" placeholder="search project or keyword..."/>
             </div>
-            <div class="flex items-center justify-evenly">
+            <div class="flex items-center justify-center md:justify-evenly">
                 <Barge text="All" />
                 <Barge text="Recent" />
                 <Barge text="Archive" />
