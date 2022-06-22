@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="" class="dark">
+<html lang="">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@500" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title><%= htmlWebpackPlugin.options.title %></title>
     <style>
       *{
@@ -38,8 +39,23 @@
         theme: {
           extend: {
             colors: {
-              primary: '#FF6B00',
-              white: '#fff',
+              primary: {
+                100: '#F3F3F4',
+                200: '#E4E4E4',
+                300: '#EEEEEE',
+                400: '#A9A9AF',
+                500: '#272738',
+                600: '#FF6B00'
+              },
+              white: '#FFFFFF',
+              black: '#000',
+              error: 'crimson',
+              blue: {
+                100: '#4F3CC9'
+              },
+              green: {
+                100: '#32CD99'
+              },
               grey: {
                 100: '#D9D9D9',
                 200: '#9A9A9A',

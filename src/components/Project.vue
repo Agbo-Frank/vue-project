@@ -15,7 +15,7 @@
                 <Barge text="Recent" />
                 <Barge text="Archive" />
                 <div class="relative flex justify-between items-center rounded-full w-20 h-10 bg-grey-200 p-1">
-                    <div class="absolute w-9 h-9 rounded-full bg-primary dark:right-1"></div>
+                    <div class="absolute w-9 h-9 rounded-full bg-primary-600 dark:right-1"></div>
                     <span @click="disenableDarkMode" class="material-symbols-outlined cursor-pointer md-18 ml-1">light_mode</span>
                     <span @click="enableDarkMode" class="material-symbols-outlined cursor-pointer md-18 mr-1">nightlight</span>
                 </div>
