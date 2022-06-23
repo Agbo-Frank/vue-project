@@ -21,12 +21,20 @@
                 </div>
             </div>
         </div>
-        <div class="flex mx-2 md:mx-10 flex-col-reverse md:flex-row mt-3 justify-between">
+        <div class="md:hidden">
             <VerticalScroll />
-            <div class=" w-full md:w-pm-80 md:h-screen flex flex-col md:flex-row flex-nowrap md:block scrollbar overflow-y-auto overfow-x-hidden">
+        </div>
+        <div class="flex mx-2 md:mx-10 flex-col mt-3 justify-between">
+            <HorizontalScroll />
+            <HorizontalScroll />
+            <HorizontalScroll />
+            <HorizontalScroll />
+            <!-- <HorizontalScroll />
+            <HorizontalScroll /> -->
+            <!-- <div class=" w-full md:w-pm-80 md:h-screen flex md:flex-row flex-nowrap md:block scrollbar overflow-y-auto overfow-x-hidden">
                 <HorizontalScroll />
                 <HorizontalScroll />
-            </div>
+            </div> -->
         </div>
     </div>
 </template>
