@@ -1,10 +1,10 @@
 <template>
     <div 
-        class="flex flex-col shrink-0 w-56 bg-grey-300 h-fit py-3 mr-12 whitespace-normal"
-        :class="{' md:sticky md:left-0 pr-5 md:pr-2 dark:bg-dark-200': header}">
+        class="flex flex-col shrink-0 w-56 h-fit py-3 mr-12 whitespace-normal"
+        :class="{' md:sticky md:left-0 pr-5 md:pr-2 :bg-dark-200': header}">
         <div class="dark:text-white">
             <p 
-            class="text-xs ">Top Priority</p>
+            class="text-xs my-5">Top Priority</p>
             <p class="font-bold hidden my-5">My To-do list to finish before july</p>
         </div>
         <ol class="w-full h-56 rounded-3xl bg-grey-200 ring ring-grey-400 px-5 divide-y divide-dark-100 dark:divide-white"

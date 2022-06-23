@@ -13,13 +13,11 @@
 
 <script>
 import Card1 from './Card1.vue'
-import Card11 from './Card1.vue'
 
 export default {
     name:'VerticalScroll',
     components: {
     Card1,
-    Card11
 }
 }
 </script>

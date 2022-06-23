@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        <div class="md:hidden">
+        <div class="md:hidden sticky left-0">
             <VerticalScroll />
         </div>
         <div class="flex mx-2 md:mx-10 flex-col mt-3 justify-between">
@@ -29,12 +29,6 @@
             <HorizontalScroll />
             <HorizontalScroll />
             <HorizontalScroll />
-            <!-- <HorizontalScroll />
-            <HorizontalScroll /> -->
-            <!-- <div class=" w-full md:w-pm-80 md:h-screen flex md:flex-row flex-nowrap md:block scrollbar overflow-y-auto overfow-x-hidden">
-                <HorizontalScroll />
-                <HorizontalScroll />
-            </div> -->
         </div>
     </div>
 </template>
