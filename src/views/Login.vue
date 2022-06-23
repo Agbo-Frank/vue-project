@@ -34,7 +34,7 @@
 import Hero from '../components/Hero.vue'
 import Button from '../components/Button.vue'
 import FormInput from '../components/FormInput.vue'
-
+import { useRoute } from 'vue-router';
 
 export default {
     name: 'Login',

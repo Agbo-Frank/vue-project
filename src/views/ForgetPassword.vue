@@ -6,10 +6,14 @@
             class='w-7 h-7 rounded-full border flex justify-center items-center translate-x-10 sm:translate-x-14'>
                 <i class="fa-solid fa-angle-left"></i>
             </div>
-            <p class='text-xs'>Not a member? <router-link to="/sign-up" class='text-blue-100'>sign up now</router-link></p>
+            <p class='text-xs'>Not a member? <router-link to="/login" class='text-blue-100'>sign in now</router-link></p>
         </div>
         <form class="w-11/12 sm:w-10/12 md:w-on-400">
-        <p class='text-2xl font-bold'>Sign in</p>
+        <p class='text-2xl font-bold'>Forgot Password?</p>
+        <p className='text-sm'>
+            Forgot Password? Enter your email address registered with us and we'll 
+            send you instructions to reset your password.Email Address Submit
+        </p>
         <div class='border-solid border-b border-primary-300 mb-7'>
             <button class='flex justify-center w-full py-2 mt-4 mb-6 rounded-lg border-solid border border-primary-300'>
             <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg" class='mx-5'>
@@ -33,7 +37,7 @@
 import Hero from '../components/Hero.vue'
 import Button from '../components/Button.vue'
 import FormInput from '../components/FormInput.vue'
-
+import { useRoute } from 'vue-router';
 
 export default {
     name: 'ForgetPassword',
@@ -44,7 +48,7 @@ export default {
     },
     methods: {
         goBack(){
-            useRoute().go(-1)
+            return useRoute().go(-1)
         }
     }
 }
