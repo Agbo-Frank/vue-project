@@ -2,8 +2,9 @@
     <Hero>
          <div class='absolute top-7 right-6 w-full flex justify-between items-center'>
             <div 
+            @click="goBack"
             class='w-7 h-7 rounded-full border flex justify-center items-center translate-x-10 sm:translate-x-14'>
-                <i class="fa-solid fa-angle-left"></i>
+                <i  class="fa-solid fa-angle-left"></i>
             </div>
             <p class='text-xs'>Not a member? <router-link to="/register" class='text-blue-100'>sign up now</router-link></p>
         </div>
@@ -41,6 +42,11 @@ export default {
         Hero,
         FormInput,
         Button
+    },
+    methods: {
+        goBack(){
+            useRoute().go(-1)
+        }
     }
 }
 </script>

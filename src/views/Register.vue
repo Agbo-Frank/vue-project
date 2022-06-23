@@ -1,14 +1,15 @@
 <template>
     <Hero>
          <div class='absolute top-7 right-6 w-full flex justify-between items-center'>
-            <div 
+            <div
+            @click="goBack" 
             class='w-7 h-7 rounded-full border flex justify-center items-center translate-x-10 sm:translate-x-14'>
                 <i class="fa-solid fa-angle-left"></i>
             </div>
-            <p class='text-xs'>Not a member? <router-link to="/register" class='text-blue-100'>sign up now</router-link></p>
+            <p class='text-xs'>Not a member? <router-link to="/login" class='text-blue-100'>sign in now</router-link></p>
         </div>
         <form class="w-11/12 sm:w-10/12 md:w-on-400">
-        <p class='text-2xl font-bold'>Sign in</p>
+        <p class='text-2xl font-bold'>Sign up</p>
         <div class='border-solid border-b border-primary-300 mb-7'>
             <button class='flex justify-center w-full py-2 mt-4 mb-6 rounded-lg border-solid border border-primary-300'>
             <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg" class='mx-5'>
@@ -17,7 +18,7 @@
                 <path d="M4.10833 10.0176C4.10833 9.35094 4.22019 8.7065 4.4239 8.10065V5.51819H1.07271C0.386221 6.87141 0 8.39889 0 10.0176C0 11.6363 0.387399 13.1638 1.07271 14.517L4.4239 11.9346C4.22019 11.3287 4.10833 10.6843 4.10833 10.0176Z" fill="#FABB05"/>
                 <path d="M10.0873 3.96491C11.5745 3.96491 12.9062 4.47368 13.9577 5.46784L16.8367 2.61053C15.0881 0.992983 12.8085 0 10.0873 0C6.14614 0 2.73255 2.24561 1.07227 5.51813L4.42345 8.10059C5.22298 5.72632 7.45553 3.96491 10.0873 3.96491Z" fill="#E94235"/>
             </svg>
-            <p class='text-grey-100 text-sm'>Sign in with Google</p>
+            <p class='text-grey-100 text-sm'>Sign up with Google</p>
             </button>
         </div>
 
@@ -27,7 +28,7 @@
         </div> 
         <FormInput name='email' type='email'/>
         <FormInput name='password' type='password'/>
-        <Button name='sign in' dark={true} large={true} type="submit"/>
+        <Button name='sign up' dark large type="submit"/>
         </form>
     </Hero>
 </template>
@@ -36,13 +37,20 @@
 <script>
 import Hero from '../components/Hero.vue'
 import FormInput from '../components/FormInput.vue'
+import Button from '../components/Button.vue'
 
 
 export default {
     name: 'Login',
     components: {
         Hero,
-        FormInput
+        FormInput,
+        Button
+    },
+    methods: {
+        goBack(){
+            useRoute().go(-1)
+        }
     }
 }
 </script>

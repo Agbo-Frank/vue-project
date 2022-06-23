@@ -1,7 +1,8 @@
 <template>
     <Hero>
          <div class='absolute top-7 right-6 w-full flex justify-between items-center'>
-            <div 
+            <div
+            @click="goBack" 
             class='w-7 h-7 rounded-full border flex justify-center items-center translate-x-10 sm:translate-x-14'>
                 <i class="fa-solid fa-angle-left"></i>
             </div>
@@ -40,6 +41,11 @@ export default {
         Hero,
         FormInput,
         Button
+    },
+    methods: {
+        goBack(){
+            useRoute().go(-1)
+        }
     }
 }
 </script>

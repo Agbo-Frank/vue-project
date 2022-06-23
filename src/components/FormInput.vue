@@ -3,7 +3,7 @@
         <div class="flex justify-between items-center">
             <p class='font-bold text-base capitalize mb-2 text-primary-500'>{{ name }}</p>
             
-            <router-link to="/forget-password" v-if="type == 'password'" class="text-xs text-blue-100">forgot password?</router-link>
+            <router-link to="/forget-password" v-if="showPasswordInputField" class="text-xs text-blue-100">forgot password?</router-link>
         </div>
         <input 
         :type="type" 
@@ -13,15 +13,18 @@
 </template>
 
 <script>
-import { computed } from 'vue'
+import { useRoute } from 'vue-router';
+
 export default {
     name: 'FormInput',
     props:{
         name: String, 
         type: String
     },
-    computed(){
-        
+    computed: {
+        showPasswordInputField() {
+            return useRoute().name === 'login' && this.type === 'password'
+        }
     }
 }
 </script>
