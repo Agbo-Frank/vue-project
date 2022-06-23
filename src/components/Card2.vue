@@ -4,7 +4,7 @@
         :class="{' md:sticky md:left-0 pr-5 md:pr-2 dark:bg-dark-200': header}">
         <div class="dark:text-white">
             <p class="text-xs mb-5"
-            :class="[header ? 'block' : 'hidden']">Top Priority</p>
+            :class="[header ? 'visible' : 'invisible']">Top Priority</p>
             <p class="font-bold hidden my-5">My To-do list to finish before july</p>
         </div>
         <ol class="w-full h-56 rounded-3xl bg-grey-200 ring ring-grey-400 px-5 divide-y divide-dark-100 dark:divide-white"
