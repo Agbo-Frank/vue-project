@@ -1,6 +1,6 @@
 <template>
     <div 
-        class="flex flex-col shrink-0 w-full md:w-56 bg-grey-300 h-fit py-3 mr-12 whitespace-normal"
+        class="flex flex-col shrink-0 w-full md:w-56 h-fit py-3 mr-12 whitespace-normal"
         :class="{' md:sticky md:left-0 pr-5 md:pr-2 dark:bg-dark-200': header}">
         <div class="dark:text-white">
             <p class="text-xs mb-5"
